@@ -33,6 +33,7 @@ public class Database_Server {
         conn = DriverManager.getConnection(DB_URL, USER, PASS);    
         stmt=conn.createStatement();
         System.out.println("Connection Established");
+        
     
     }
     
@@ -48,7 +49,7 @@ public class Database_Server {
                    " Name VARCHAR(255), " + 
                    " User_Name VARCHAR(255), " + 
                    " Password VARCHAR(255), " + 
-                   " RoomNo VARCHAR(255), " + 
+                    
                    " Hostel VARCHAR(255), " + 
                    " Email VARCHAR(255), " + 
                    " ConatctNo VARCHAR(255), " +

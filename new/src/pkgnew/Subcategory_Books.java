@@ -5,6 +5,10 @@
  */
 package pkgnew;
 
+import java.awt.CardLayout;
+import static pkgnew.Main_Frame.Display;
+import static pkgnew.Main_Frame.DisplayPanel;
+import static pkgnew.Main_Frame.card;
 /**
  *
  * @author priyanja
@@ -27,78 +31,177 @@ public class Subcategory_Books extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
+        cse = new javax.swing.JLabel();
+        ece = new javax.swing.JLabel();
+        mech = new javax.swing.JLabel();
+        chemical = new javax.swing.JLabel();
+        biotech = new javax.swing.JLabel();
+        civil = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
+        jLabel7 = new javax.swing.JLabel();
 
-        jLabel1.setText("CSE/IT");
+        cse.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pkgnew/rsz_cse.png"))); // NOI18N
+        cse.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                cseMouseClicked(evt);
+            }
+        });
 
-        jLabel2.setText("ECE/Electrical");
+        ece.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pkgnew/rsz_1ece.png"))); // NOI18N
+        ece.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                eceMouseClicked(evt);
+            }
+        });
 
-        jLabel3.setText("Mech/Prod");
+        mech.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pkgnew/rsz_mech.png"))); // NOI18N
+        mech.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                mechMouseClicked(evt);
+            }
+        });
 
-        jLabel4.setText("Chemical");
+        chemical.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pkgnew/rsz_chemicals.png"))); // NOI18N
+        chemical.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                chemicalMouseClicked(evt);
+            }
+        });
 
-        jLabel5.setText("Biotech");
+        biotech.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pkgnew/rsz_biotech.png"))); // NOI18N
+        biotech.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                biotechMouseClicked(evt);
+            }
+        });
 
-        jLabel6.setText("Civil");
+        civil.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pkgnew/rsz_civil.png"))); // NOI18N
+        civil.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                civilMouseClicked(evt);
+            }
+        });
+
+        jLabel7.setFont(new java.awt.Font("SansSerif", 1, 18)); // NOI18N
+        jLabel7.setText("BOOKS");
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(367, 367, 367)
+                .addComponent(jLabel7)
+                .addContainerGap(417, Short.MAX_VALUE))
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addGap(0, 32, Short.MAX_VALUE)
+                .addComponent(jLabel7))
+        );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+                .addGap(78, 78, 78)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(cse, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(chemical, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(ece, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(biotech, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(49, 49, 49)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(jLabel1)
-                        .addGap(129, 129, 129))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel4)
-                        .addGap(110, 110, 110)))
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel5)
-                    .addComponent(jLabel2))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 103, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(jLabel3)
-                        .addGap(42, 42, 42))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(jLabel6)
-                        .addGap(56, 56, 56))))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(mech, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(civil, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(73, 73, 73))
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(129, 129, 129)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
-                    .addComponent(jLabel2)
-                    .addComponent(jLabel3))
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(biotech, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(150, 150, 150)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel4)
-                            .addComponent(jLabel6)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(158, 158, 158)
-                        .addComponent(jLabel5)))
-                .addContainerGap(224, Short.MAX_VALUE))
+                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(58, 58, 58)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(mech, javax.swing.GroupLayout.PREFERRED_SIZE, 151, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(cse, javax.swing.GroupLayout.PREFERRED_SIZE, 151, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(ece, javax.swing.GroupLayout.PREFERRED_SIZE, 151, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(99, 99, 99)
+                                .addComponent(chemical, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(civil, javax.swing.GroupLayout.PREFERRED_SIZE, 154, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addContainerGap(153, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
+    private void cseMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_cseMouseClicked
+        // TODO add your handling code here:
+         CardLayout Card = (CardLayout)DisplayPanel.getLayout();
+         card = "list_items";
+        Card.show(DisplayPanel, "list_items");
+        Display("Books","Cse/It");
+    }//GEN-LAST:event_cseMouseClicked
+
+    private void eceMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_eceMouseClicked
+        // TODO add your handling code here:
+        CardLayout Card = (CardLayout)DisplayPanel.getLayout();
+        Card.show(DisplayPanel, "list_items");
+        card = "list_items";
+        Display("Books","Ece/Electrical");
+    }//GEN-LAST:event_eceMouseClicked
+
+    private void mechMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_mechMouseClicked
+        // TODO add your handling code here:
+        CardLayout Card = (CardLayout)DisplayPanel.getLayout();
+        card = "list_items";
+        Card.show(DisplayPanel, "list_items");
+        Display("Books","Mech/Prod");
+    }//GEN-LAST:event_mechMouseClicked
+
+    private void chemicalMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_chemicalMouseClicked
+        // TODO add your handling code here:
+        CardLayout Card = (CardLayout)DisplayPanel.getLayout();
+        card = "list_items";
+        Card.show(DisplayPanel, "list_items");
+        Display("Books","Chemical");
+    }//GEN-LAST:event_chemicalMouseClicked
+
+    private void biotechMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_biotechMouseClicked
+        // TODO add your handling code here:
+        CardLayout Card = (CardLayout)DisplayPanel.getLayout();
+        card = "list_items";
+        Card.show(DisplayPanel, "list_items");
+        Display("Books","Biotech");
+    }//GEN-LAST:event_biotechMouseClicked
+
+    private void civilMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_civilMouseClicked
+        // TODO add your handling code here:
+        CardLayout Card = (CardLayout)DisplayPanel.getLayout();
+        card = "list_items";
+        Card.show(DisplayPanel, "list_items");
+        Display("Books","Civil");
+    }//GEN-LAST:event_civilMouseClicked
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel biotech;
+    private javax.swing.JLabel chemical;
+    private javax.swing.JLabel civil;
+    private javax.swing.JLabel cse;
+    private javax.swing.JLabel ece;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel mech;
     // End of variables declaration//GEN-END:variables
 }

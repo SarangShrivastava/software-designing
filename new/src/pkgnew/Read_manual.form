@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="245" max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" pref="749" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="51" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="473" max="-2" attributes="0"/>
+                  <EmptySpace pref="51" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="24" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="HOW TO USE SOFTWARE "/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea1">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="     This software is a initiative to enable the offline exchange among the students within the college using LAN.&#xa;&#xa;Pre-Requisite:-1.You must have a Lan connection.&#xa;&#xa;Features of the Software:-&#xa;&#xa;1. SIGNUP :- To use this software you need to signup to the server with your some of the details.&#xa; &#xa;2. LOGIN:- Once you have signed up,,You can login using your username and password.&#xa;&#xa;3. HOME:- This page contains all the information of different items available for sale, You can search the desired &#xa;                         item in corresponding category and sub_category. &#xa;4. SEARCH:- If you dont have any idea of the category or sub_category ,you can directly search it with the item&#xa;                      name.&#xa;5.RECENT SALE:- A list of recent uploaded items.&#xa;&#xa;Features that you can access after Logging in:-&#xa; &#xa;1. PROFILE:- You can view your profile , edit it and change your password.&#xa;&#xa;2.UPLOADS :- It have three columns corresponding to it:-&#xa;&#xa;a) ADD NEW SALE :- Here You can add the items you need to sale.&#xa;b)SOlD_ITEMS:- A list of item which has been sold by you. It  gives you the details of the person you have sold &#xa;                                      the item. &#xa;c)TO BE SOLD:- A list of items which are available for sale. You can view the bids corresponding to the &#xa;                                          item and can decide to whom to sale the item. you can also edit the details of item &#xa;                                          or delete it,&#xa;3.NOTIFICATIONS:-There are four types of notification &#xa;&#xa;a) Bid Placed:- you will be notified if any user bid on your item.&#xa;b)Bid Successful:- If your bid corresponding to any item is successful.&#xa;c)Time Limit:- If the item you have uploaded has expired.&#xa;d)Item Edited:- If details of any item on which you have bided is changed.&#xa;&#xa;4.BIDS :-A list of item on which you have bided.&#xa;&#xa;5.CHAT:- You can chat to a person who is online ,you can also search for a person by their username.&#xa;&#xa;5.LOGOUT :- logging out of the server.&#xa;&#xa;"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
